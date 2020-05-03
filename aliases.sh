@@ -12,3 +12,15 @@ kcsetns() { context=$(kc config current-context); kc config set-context $context
 
 # Terraform
 alias tf='terraform'
+
+# Git Scan
+gitscan() { 
+    for d in */
+    do
+        echo -e "[$d]"
+        cd $d
+        git status
+        cd ..
+        echo ""
+    done 
+}

@@ -1,4 +1,4 @@
-
+# ===== BEGIN CUSTOM SCRIPT =====
 # Azure CLI
 alias azset='az account set -s'
 alias azlist='az account list -o table'
@@ -25,3 +25,11 @@ gitscan() {
         echo ""
     done 
 }
+
+# Open tmux
+if [ -x "$(command -v tmux)" ]; then
+  if ! { [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; } then
+    tmux
+  fi
+fi
+# ===== END CUSTOM SCRIPT =====

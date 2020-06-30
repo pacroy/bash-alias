@@ -1,3 +1,5 @@
+
+
 # ===== BEGIN CUSTOM SCRIPT =====
 # https://github.com/pacroy/bash-alias
 # Azure CLI

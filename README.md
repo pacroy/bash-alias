@@ -1,17 +1,17 @@
 # Bash Aliases
 
-## Linux
+## Aliases
 
-Append `custom.sh` to your `.bashrc` and reload it.
-
-```
-curl -s https://raw.githubusercontent.com/pacroy/bash-alias/master/custom.sh >> ~/.bashrc && source ~/.bashrc
-```
-
-## MacOS
-
-Append `custom.sh` to your `.bash_profile` and reload it.
+Append `alias.sh` to your `.zshrc` or `.bashrc` or `.bash_profile` and reload it.
 
 ```
-curl -s https://raw.githubusercontent.com/pacroy/bash-alias/master/custom.sh >> ~/.bash_profile && source ~/.bash_profile
+curl -s https://raw.githubusercontent.com/pacroy/bash-alias/master/alias.sh >> ~/.bashrc && source ~/.bashrc
+```
+
+## tmux
+
+Append `tmux.sh` to your `.zshrc` or `.bashrc` or `.bash_profile` and reload it.
+
+```
+curl -s https://raw.githubusercontent.com/pacroy/bash-alias/master/tmux.sh >> ~/.bashrc && source ~/.bashrc
 ```

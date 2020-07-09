@@ -5,9 +5,9 @@
 # Open tmux
 if [ -x "$(command -v tmux)" ]; then
   if ! { [[ "$TERM" == screen* ]] && [ -n "$TMUX" ]; } then
-    tmux
+    tmux attach || tmux
   else
-    if [ -f "/usr/lib/update-notifier/apt-check" ]; then
+    if [ -x "/usr/lib/update-notifier/apt-check" ]; then
       /usr/lib/update-notifier/apt-check --human-readable
     fi
   fi

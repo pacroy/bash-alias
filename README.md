@@ -1,19 +1,15 @@
 # Bash Aliases
 
-## Aliases
-
-Append `alias.sh` to your `.zshrc` or `.bashrc` or `.bash_profile`.
+## Alias
 
 ```
-curl -s https://raw.githubusercontent.com/pacroy/bash-alias/master/alias.sh >> ~/.bashrc
+curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/install_alias.sh | bash -
 ```
 
 ## tmux
 
-Append `tmux.sh` to your `.zshrc` or `.bashrc` or `.bash_profile`.
-
 ```
-curl -s https://raw.githubusercontent.com/pacroy/bash-alias/master/tmux.sh >> ~/.bashrc
+curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/install_tmux.sh | bash -
 ```
 
 ## Reload

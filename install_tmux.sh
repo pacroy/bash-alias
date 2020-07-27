@@ -3,4 +3,4 @@
 set -e
 
 curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/tmux.sh -o ~/alias.sh
-echo "\nsource ~/tmux.sh" >> ~/.bashrc
+echo -en "\nsource ~/tmux.sh" >> ~/.bashrc

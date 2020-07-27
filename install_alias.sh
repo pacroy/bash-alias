@@ -4,4 +4,4 @@ set -e
 
 curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/alias.sh -o ~/alias.sh
 chmod +x ~/alias.sh
-echo "\nsource ~/alias.sh" >> .bashrc
+echo "\nsource ~/alias.sh" >> ~/.bashrc

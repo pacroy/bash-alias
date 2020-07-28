@@ -28,3 +28,9 @@ gitscan() {
         echo ""
     done 
 }
+
+# Update alias
+update_alias() {
+    curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/alias.sh -o ~/alias.sh
+    source ~/alias.sh
+}

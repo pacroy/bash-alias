@@ -12,3 +12,9 @@ if [ -x "$(command -v tmux)" ]; then
     fi
   fi
 fi
+
+# Update tmux
+update_tmux() {
+    curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/tmux.sh -o ~/tmux.sh
+    source ~/tmux.sh
+}

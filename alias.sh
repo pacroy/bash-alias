@@ -1,7 +1,4 @@
 # https://github.com/pacroy/bash-alias/alias.sh
-#!/bin/bash
-set -e
-
 # Azure CLI
 alias azset='az account set -s'
 alias azlist='az account list -o table'

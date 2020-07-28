@@ -1,7 +1,4 @@
 # https://github.com/pacroy/bash-alias/tmux.sh
-#!/bin/bash
-set -e
-
 # Open tmux
 if [ -x "$(command -v tmux)" ]; then
   if ! { [[ "$TERM" == screen* ]] && [ -n "$TMUX" ]; } then

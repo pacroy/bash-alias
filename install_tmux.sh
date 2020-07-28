@@ -2,5 +2,6 @@
 #!/bin/bash
 set -e
 
-curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/tmux.sh -o ~/alias.sh
-echo -en "\nsource ~/tmux.sh" >> ~/.bashrc
+curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/tmux.sh -o ~/tmux.sh
+echo -en "\nsource ~/tmux.sh\n" >> ~/.bashrc
+source ~/tmux.sh

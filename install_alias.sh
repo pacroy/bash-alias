@@ -3,4 +3,5 @@
 set -e
 
 curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/alias.sh -o ~/alias.sh
-echo -en "\nsource ~/alias.sh" >> ~/.bashrc
+echo -en "\nsource ~/alias.sh\n" >> ~/.bashrc
+source ~/alias.sh

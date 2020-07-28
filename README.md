@@ -1,19 +1,25 @@
 # Bash Aliases
 
-## Alias
+## Installing alias
 
 ```
 curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/install_alias.sh | bash -
 ```
 
-## tmux
+## Installing tmux
 
 ```
 curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/install_tmux.sh | bash -
 ```
 
-## Reload
+## Updating alias
 
 ```
-source ~/.bashrc
+update_alias
+```
+
+## Updating tmux
+
+```
+update_tmux
 ```

@@ -2,6 +2,6 @@
 #!/bin/bash
 set -e
 
-curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/alias.sh -o ~/alias.sh
-echo -en "\nsource ~/alias.sh\n" >> ~/.bashrc
-source ~/alias.sh
+curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/alias.sh -o ~/clouddrive/alias.sh
+echo -en "\nsource ~/clouddrive/alias.sh\n" >> ~/.bashrc
+source ~/clouddrive/alias.sh

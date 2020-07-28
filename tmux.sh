@@ -12,6 +12,6 @@ fi
 
 # Update tmux
 update_tmux() {
-    curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/tmux.sh -o ~/tmux.sh
-    source ~/tmux.sh
+    curl -sS https://raw.githubusercontent.com/pacroy/bash-alias/master/tmux.sh -o ~/clouddrive/tmux.sh
+    source ~/clouddrive/tmux.sh
 }

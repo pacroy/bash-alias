@@ -1,5 +1,7 @@
 # Bash Aliases
 
+__This repo is obsoleted. Please refer to https://github.com/pacroy/bash-init for up-to-date version.__
+
 ## Installing alias
 
 ```
